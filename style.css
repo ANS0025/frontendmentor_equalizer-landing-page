@@ -22,17 +22,17 @@ main h1{
     width: 1015px;
     color: #191826;
     font-weight: 700;
-    font-size: 88px;
-    line-height: 88px;
-    letter-spacing: -1px;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.0625rem;
 }
 main .desc{
     width: 825px;
     margin: 40px 0 0 0;
     color: #191826;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 1.25rem;
+    line-height: 2.125rem;
 }
 /* プラン詳細 */
 section{
@@ -69,15 +69,15 @@ section{
     margin:58px 0 0 0;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 .plan .desc{
     width: 333px;
     margin: 22px 0 0 0;
     color: #FCFAF9;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 1.25rem;
+    line-height: 2.125rem;
 }
 .plan .price{
     width: 333px;
@@ -87,11 +87,11 @@ section{
     align-items: center;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 4.0625rem;
 }
 .price span{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .plan button{
     width: 333px;
@@ -104,8 +104,8 @@ section{
     background: #191826;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 18px;
-    letter-spacing: -0.18px;
+    font-size: 1.125rem;
+    letter-spacing: -0.0112rem;
 }
 .ios-button:hover{
     background: #66E2DC;
@@ -117,8 +117,8 @@ section{
     background: #FCFAF9;
     color: #191826;
     font-weight: 700;
-    font-size: 18px;
-    letter-spacing: -0.18px;
+    font-size: 1.125rem;
+    letter-spacing: -0.0112rem;
 }
 .android-button:hover{
     background: #FFB964;
@@ -135,6 +135,10 @@ footer{
     display: flex;
     flex-direction: row;
 }
+.info-box{
+    display: flex;
+    flex-direction: row;
+}
 .footer-icon{
     width: 146px;
     height: 32px;
@@ -144,9 +148,9 @@ footer address{
     margin-left: 137.6px;
     color: #191826;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 .media-box{
     margin-top: 29px;
@@ -186,8 +190,8 @@ main h1{
     width: 520px;
     color: #191826;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 4rem;
+    line-height: 4rem;
     letter-spacing: -0.727273px;
 }
 main .desc{
@@ -195,8 +199,8 @@ main .desc{
     margin: 28px 0 0 0;
     color: #191826;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
 /* プラン詳細 */
 section{
@@ -233,15 +237,15 @@ section{
     margin:48px 0 0 0;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
 }
 .plan .desc{
     width: 302px;
     margin: 12px 0 0 0;
     color: #FCFAF9;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
 .plan .price{
     width: 302px;
@@ -251,11 +255,11 @@ section{
     align-items: center;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 4.0625rem;
 }
 .price span{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .plan button{
     width: 296px;
@@ -268,8 +272,8 @@ section{
     background: #191826;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 18px;
-    letter-spacing: -0.18px;
+    font-size: 1.125rem;
+    letter-spacing: -0.0112rem;
 }
 .ios-button:hover{
     background: #66E2DC;
@@ -281,8 +285,8 @@ section{
     background: #FCFAF9;
     color: #191826;
     font-weight: 700;
-    font-size: 18px;
-    letter-spacing: -0.18px;
+    font-size: 1.125rem;
+    letter-spacing: -0.0112rem;
 }
 .android-button:hover{
     background: #FFB964;
@@ -314,9 +318,9 @@ footer address{
     width: 366px;
     color: #191826;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
-    line-height: 26px;
+    line-height: 1.625rem;
 }
 .media-box{
     margin-top: 94px;
@@ -357,17 +361,17 @@ footer address{
         width: inherit;
         color: #191826;
         font-weight: 700;
-        font-size: 40px;
-        line-height: 48px;
-        letter-spacing: -0.454545px;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: -0.0284rem;
     }
     main .desc{
         width: inherit;
         margin: 28px 0 0 0;
         color: #191826;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: 1.625rem;
     }
     /* プラン詳細 */
     section{
@@ -404,7 +408,7 @@ footer address{
         margin:48px 0 0 0;
         color: #FCFAF9;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 2rem;
     }
     .plan .desc{
         width: 302px;
@@ -422,11 +426,11 @@ footer address{
         align-items: center;
         color: #FCFAF9;
         font-weight: 700;
-        font-size: 65px;
+        font-size: 4.0625rem;
     }
     .price span{
         font-weight: 400;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .plan button{
         width: 296px;
@@ -439,8 +443,8 @@ footer address{
         background: #191826;
         color: #FCFAF9;
         font-weight: 700;
-        font-size: 18px;
-        letter-spacing: -0.18px;
+        font-size: 1.125rem;
+        letter-spacing: -0.0112rem;
     }
     .ios-button:hover{
         background: #66E2DC;
@@ -452,8 +456,8 @@ footer address{
         background: #FCFAF9;
         color: #191826;
         font-weight: 700;
-        font-size: 18px;
-        letter-spacing: -0.18px;
+        font-size: 1.125rem;
+        letter-spacing: -0.0112rem;
     }
     .android-button:hover{
         background: #FFB964;
@@ -485,9 +489,9 @@ footer address{
         width: inherit;
         color: #191826;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
         font-style: normal;
-        line-height: 26px;
+        line-height: 1.625rem;
     }
     .media-box{
         margin-top: 64px;
