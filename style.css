@@ -50,8 +50,7 @@ section{
     position: absolute;
     left: 102px;
     bottom: 171px;
-    max-width: 312px;
-    min-width: 208px;
+    width: 312px;
 }
 .plan {
     position: absolute;
@@ -66,14 +65,14 @@ section{
     border-radius: 12px;
 }
 .plan h2{
-    width: 74.7%;
+    width: 333px;
     margin:58px 0 0 0;
     color: #FCFAF9;
     font-weight: 700;
     font-size: 40px;
 }
 .plan .desc{
-    width: 74.7%;
+    width: 333px;
     margin: 22px 0 0 0;
     color: #FCFAF9;
     font-weight: 400;
@@ -81,7 +80,7 @@ section{
     line-height: 34px;
 }
 .plan .price{
-    width: 74.7%;
+    width: 333px;
     margin: 39px 0 0 0;
     display: flex;
     flex-direction: row;
@@ -95,7 +94,7 @@ section{
     font-size: 20px;
 }
 .plan button{
-    width: 74.7%;
+    width: 333px;
     height: 61px;
     border-radius: 12px;
     border: none;
@@ -141,7 +140,7 @@ footer{
     height: 32px;
 }
 footer address{
-    max-width: 366px;
+    width: 366px;
     margin-left: 137.6px;
     color: #191826;
     font-weight: 400;
@@ -162,3 +161,342 @@ footer address{
 
 /* タブレット版
 ------------------------------------------------------------- */
+@media (min-width: 768px) and (max-width:1214px){
+/* ボディ */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-tablet.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -40px right -35.7px, top -230px left -400px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+/* ヘッダー */
+header{
+    width: 696px;
+    margin-top: 62px;
+}
+/* メインテキスト */
+main{
+    width: 696px;
+    margin-top: 95px;
+}
+main h1{
+    width: 520px;
+    color: #191826;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+}
+main .desc{
+    width: 514px;
+    margin: 28px 0 0 0;
+    color: #191826;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* プラン詳細 */
+section{
+    position: relative;
+    width: 696px;
+    height: 600px;
+    margin-top: 249px;
+    background: #191826;
+    background-image: url(assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: top -32px left 229px;
+    border-radius: 12px;
+}
+.app-img{
+    position: absolute;
+    left: 64px;
+    bottom: 182px;
+    width: 270.2px;
+}
+.plan {
+    position: absolute;
+    right: 58px;
+    top: 150px;
+    width: 399px;
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FA7453;
+    border-radius: 12px;
+}
+.plan h2{
+    width: 302px;
+    margin:48px 0 0 0;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 32px;
+}
+.plan .desc{
+    width: 302px;
+    margin: 12px 0 0 0;
+    color: #FCFAF9;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.plan .price{
+    width: 302px;
+    margin: 36px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 65px;
+}
+.price span{
+    font-weight: 400;
+    font-size: 20px;
+}
+.plan button{
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    border: none;
+}
+.ios-button{
+    margin-top: 32px;
+    background: #191826;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+}
+.ios-button:hover{
+    background: #66E2DC;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.android-button{
+    margin-top: 16px;
+    background: #FCFAF9;
+    color: #191826;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+}
+.android-button:hover{
+    background: #FFB964;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+/* フッター */
+footer{
+    width: 696px;
+    height: 143px;
+    margin-top: 183px;
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: row;
+}
+.info-box{
+    width: 366px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-icon{
+    width: 146px;
+    height: 32px;
+}
+footer address{
+    margin-top: 32px;
+    margin-left: 0;
+    width: 366px;
+    color: #191826;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+}
+.media-box{
+    margin-top: 94px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sns:hover{
+    
+}
+}
+
+/* モバイル版
+------------------------------------------------------------- */
+@media (max-width: 767px){
+    /* ボディ */
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(assets/bg-main-mobile.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: top -230px left 0px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    /* ヘッダー */
+    header{
+        width: 327px;
+        margin-top: 40px;
+    }
+    /* メインテキスト */
+    main{
+        width: 327px;
+        margin-top: 64px;
+    }
+    main h1{
+        width: inherit;
+        color: #191826;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.454545px;
+    }
+    main .desc{
+        width: inherit;
+        margin: 28px 0 0 0;
+        color: #191826;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* プラン詳細 */
+    section{
+        position: relative;
+        width: 375px;
+        height: 600px;
+        margin-top: 166px;
+        background: #191826;
+        background-image: url(assets/bg-pattern-2.svg);
+        background-repeat: no-repeat;
+        background-position: top 0 left 50%;
+        border-radius: 12px;
+    }
+    .app-img{
+        position: absolute;
+        left: 80px;
+        bottom: 268px;
+        width: 208px;
+    }
+    .plan {
+        position: absolute;
+        right: 0;
+        top: 380px;
+        width: 375px;
+        height: 546px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FA7453;
+        border-radius: 12px;
+    }
+    .plan h2{
+        width: 302px;
+        margin:48px 0 0 0;
+        color: #FCFAF9;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .plan .desc{
+        width: 302px;
+        margin: 12px 0 0 0;
+        color: #FCFAF9;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .plan .price{
+        width: 302px;
+        margin: 36px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #FCFAF9;
+        font-weight: 700;
+        font-size: 65px;
+    }
+    .price span{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .plan button{
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
+        border: none;
+    }
+    .ios-button{
+        margin-top: 32px;
+        background: #191826;
+        color: #FCFAF9;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: -0.18px;
+    }
+    .ios-button:hover{
+        background: #66E2DC;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+    .android-button{
+        margin-top: 16px;
+        background: #FCFAF9;
+        color: #191826;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: -0.18px;
+    }
+    .android-button:hover{
+        background: #FFB964;
+        cursor: pointer;
+        transition-duration: 0.3s;
+    }
+    
+    /* フッター */
+    footer{
+        width: 327px;
+        height: 253px;
+        margin-top: 390px;
+        margin-bottom: 85px;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-box{
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-icon{
+        width: 146px;
+        height: 32px;
+    }
+    footer address{
+        margin-top: 32px;
+        margin-left: 0;
+        width: inherit;
+        color: #191826;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 26px;
+    }
+    .media-box{
+        margin-top: 64px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .sns:hover{
+        
+    }
+    }
