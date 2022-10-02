@@ -1,0 +1,164 @@
+/* ボディ */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-desktop.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -40px right 0, center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+/* ヘッダー */
+header{
+    width: 1110px;
+    margin-top: 62px;
+}
+/* メインテキスト */
+main{
+    width: 1110px;
+    margin-top: 127px;
+}
+main h1{
+    width: 1015px;
+    color: #191826;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+}
+main .desc{
+    width: 825px;
+    margin: 40px 0 0 0;
+    color: #191826;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+/* プラン詳細 */
+section{
+    position: relative;
+    width: 1110px;
+    height: 600px;
+    margin-top: 321px;
+    background: #191826;
+    background-image: url(assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: top 0 left 336px;
+    border-radius: 12px;
+}
+.app-img{
+    position: absolute;
+    left: 102px;
+    bottom: 171px;
+    max-width: 312px;
+    min-width: 208px;
+}
+.plan {
+    position: absolute;
+    right: 95px;
+    top: 90px;
+    width: 446px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FA7453;
+    border-radius: 12px;
+}
+.plan h2{
+    width: 74.7%;
+    margin:58px 0 0 0;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 40px;
+}
+.plan .desc{
+    width: 74.7%;
+    margin: 22px 0 0 0;
+    color: #FCFAF9;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+.plan .price{
+    width: 74.7%;
+    margin: 39px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 65px;
+}
+.price span{
+    font-weight: 400;
+    font-size: 20px;
+}
+.plan button{
+    width: 74.7%;
+    height: 61px;
+    border-radius: 12px;
+    border: none;
+}
+.ios-button{
+    margin-top: 32px;
+    background: #191826;
+    color: #FCFAF9;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+}
+.ios-button:hover{
+    background: #66E2DC;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.android-button{
+    margin-top: 16px;
+    background: #FCFAF9;
+    color: #191826;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+}
+.android-button:hover{
+    background: #FFB964;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+/* フッター */
+footer{
+    width: 1110px;
+    height: 79px;
+    margin-top: 202px;
+    margin-bottom: 91px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-icon{
+    width: 146px;
+    height: 32px;
+}
+footer address{
+    max-width: 366px;
+    margin-left: 137.6px;
+    color: #191826;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+}
+.media-box{
+    margin-top: 29px;
+    margin-left: 359px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sns:hover{
+    
+}
+
+/* タブレット版
+------------------------------------------------------------- */
