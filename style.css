@@ -160,7 +160,7 @@ footer address{
     gap: 20px;
 }
 .sns:hover{
-    
+    filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%); 
 }
 
 /* タブレット版
@@ -330,7 +330,7 @@ footer address{
     gap: 20px;
 }
 .sns:hover{
-    
+    filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%);
 }
 }
 
@@ -501,6 +501,6 @@ footer address{
         gap: 20px;
     }
     .sns:hover{
-        
+        filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%);
     }
     }
