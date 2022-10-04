@@ -5,107 +5,107 @@ body{
     align-items: center;
     background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-desktop.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: top -2.5rem right 0, center;
+    background-position: top -40px right 0, center;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 /* ヘッダー */
 header{
-    width: 69.375rem;
-    margin-top: 3.875rem;
+    width: 1110px;
+    margin-top: 62px;
 }
 /* メインテキスト */
 main{
-    width: 69.375rem;
-    margin-top: 7.9375rem;
+    width: 1110px;
+    margin-top: 127px;
 }
 main h1{
-    width: 63.4375rem;
+    width: 1015px;
     color: #191826;
     font-weight: 700;
-    font-size: 5.5rem;
-    line-height: 5.5rem;
-    letter-spacing: -0.0625rem;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
 }
 main .desc{
-    width: 51.5625rem;
-    margin: 2.5rem 0 0 0;
+    width: 825px;
+    margin: 40px 0 0 0;
     color: #191826;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 2.125rem;
+    font-size: 20px;
+    line-height: 34px;
 }
 /* プラン詳細 */
 section{
     position: relative;
-    width: 69.375rem;
-    height: 37.5rem;
-    margin-top: 20.0625rem;
+    width: 1110px;
+    height: 600px;
+    margin-top: 321px;
     background: #191826;
     background-image: url(assets/bg-pattern-2.svg);
     background-repeat: no-repeat;
-    background-position: top 0 left 21rem;
-    border-radius: 0.75rem;
+    background-position: top 0 left 336px;
+    border-radius: 12px;
 }
 .app-img{
     position: absolute;
-    left: 6.375rem;
-    bottom: 10.6875rem;
-    width: 19.5rem;
+    left: 102px;
+    bottom: 171px;
+    width: 312px;
 }
 .plan {
     position: absolute;
-    right: 5.9375rem;
-    top: 5.625rem;
-    width: 27.875rem;
-    height: 39.0625rem;
+    right: 95px;
+    top: 90px;
+    width: 446px;
+    height: 625px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #FA7453;
-    border-radius: 0.75rem;
+    border-radius: 12px;
 }
 .plan h2{
-    width: 20.8125rem;
-    margin:3.625rem 0 0 0;
+    width: 333px;
+    margin:58px 0 0 0;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 .plan .desc{
-    width: 20.8125rem;
-    margin: 1.375rem 0 0 0;
+    width: 333px;
+    margin: 22px 0 0 0;
     color: #FCFAF9;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 2.125rem;
+    font-size: 20px;
+    line-height: 34px;
 }
 .plan .price{
-    width: 20.8125rem;
-    margin: 2.4375rem 0 0 0;
+    width: 333px;
+    margin: 39px 0 0 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 4.0625rem;
+    font-size: 65px;
 }
 .price span{
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 .plan button{
-    width: 20.8125rem;
-    height: 3.8125rem;
-    border-radius: 0.75rem;
+    width: 333px;
+    height: 61px;
+    border-radius: 12px;
     border: none;
 }
 .ios-button{
-    margin-top: 2rem;
+    margin-top: 32px;
     background: #191826;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 1.125rem;
-    letter-spacing: -0.0112rem;
+    font-size: 18px;
+    letter-spacing: -0.1792px;
 }
 .ios-button:hover{
     background: #66E2DC;
@@ -113,12 +113,12 @@ section{
     transition-duration: 0.3s;
 }
 .android-button{
-    margin-top: 1rem;
+    margin-top: 16px;
     background: #FCFAF9;
     color: #191826;
     font-weight: 700;
-    font-size: 1.125rem;
-    letter-spacing: -0.0112rem;
+    font-size: 18px;
+    letter-spacing: -0.1792px;
 }
 .android-button:hover{
     background: #FFB964;
@@ -128,10 +128,10 @@ section{
 
 /* フッター */
 footer{
-    width: 69.375rem;
-    height: 4.9375rem;
-    margin-top: 12.625rem;
-    margin-bottom: 5.6875rem;
+    width: 1110px;
+    height: 79px;
+    margin-top: 202px;
+    margin-bottom: 91px;
     display: flex;
     flex-direction: row;
 }
@@ -140,24 +140,24 @@ footer{
     flex-direction: row;
 }
 .footer-icon{
-    width: 9.125rem;
-    height: 2rem;
+    width: 146px;
+    height: 32px;
 }
 footer address{
-    width: 22.875rem;
-    margin-left: 8.6rem;
+    width: 366px;
+    margin-left: 137.6px;
     color: #191826;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 16px;
     font-style: normal;
-    line-height: 1.625rem;
+    line-height: 26px;
 }
 .media-box{
-    margin-top: 1.8125rem;
-    margin-left: 22.4375rem;
+    margin-top: 29px;
+    margin-left: 359px;
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
+    gap: 20px;
 }
 .sns:hover{
     filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%); 
@@ -165,7 +165,7 @@ footer address{
 
 /* タブレット版
 ------------------------------------------------------------- */
-@media (min-width: 48rem) and (max-width:75.875rem){
+@media (min-width: 768px) and (max-width:1214px){
 /* ボディ */
 body{
     display: flex;
@@ -173,107 +173,107 @@ body{
     align-items: center;
     background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-tablet.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: top -2.5rem right -2.2313rem, top -14.375rem left -25rem;
+    background-position: top -40px right -35.7008px, top -230px left -400px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 /* ヘッダー */
 header{
-    width: 43.5rem;
-    margin-top: 3.875rem;
+    width: 696px;
+    margin-top: 62px;
 }
 /* メインテキスト */
 main{
-    width: 43.5rem;
-    margin-top: 5.9375rem;
+    width: 696px;
+    margin-top: 95px;
 }
 main h1{
-    width: 32.5rem;
+    width: 520px;
     color: #191826;
     font-weight: 700;
-    font-size: 4rem;
-    line-height: 4rem;
-    letter-spacing: -0.0455rem;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.728px;
 }
 main .desc{
-    width: 32.125rem;
-    margin: 1.75rem 0 0 0;
+    width: 514px;
+    margin: 28px 0 0 0;
     color: #191826;
     font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 18px;
+    line-height: 28px;
 }
 /* プラン詳細 */
 section{
     position: relative;
-    width: 43.5rem;
-    height: 37.5rem;
-    margin-top: 15.5625rem;
+    width: 696px;
+    height: 600px;
+    margin-top: 249px;
     background: #191826;
     background-image: url(assets/bg-pattern-2.svg);
     background-repeat: no-repeat;
-    background-position: top -2rem left 14.3125rem;
-    border-radius: 0.75rem;
+    background-position: top -32px left 229px;
+    border-radius: 12px;
 }
 .app-img{
     position: absolute;
-    left: 4rem;
-    bottom: 11.375rem;
-    width: 16.8875rem;
+    left: 64px;
+    bottom: 182px;
+    width: 270.2px;
 }
 .plan {
     position: absolute;
-    right: 3.625rem;
-    top: 9.375rem;
-    width: 24.9375rem;
-    height: 34.125rem;
+    right: 58px;
+    top: 150px;
+    width: 399px;
+    height: 546px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #FA7453;
-    border-radius: 0.75rem;
+    border-radius: 12px;
 }
 .plan h2{
-    width: 18.875rem;
-    margin:3rem 0 0 0;
+    width: 302px;
+    margin:48px 0 0 0;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 32px;
 }
 .plan .desc{
-    width: 18.875rem;
-    margin: 0.75rem 0 0 0;
+    width: 302px;
+    margin: 12px 0 0 0;
     color: #FCFAF9;
     font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 18px;
+    line-height: 28px;
 }
 .plan .price{
-    width: 18.875rem;
-    margin: 2.25rem 0 0 0;
+    width: 302px;
+    margin: 36px 0 0 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 4.0625rem;
+    font-size: 65px;
 }
 .price span{
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 20px;
 }
 .plan button{
-    width: 18.5rem;
-    height: 3.8125rem;
-    border-radius: 0.75rem;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
     border: none;
 }
 .ios-button{
-    margin-top: 2rem;
+    margin-top: 32px;
     background: #191826;
     color: #FCFAF9;
     font-weight: 700;
-    font-size: 1.125rem;
-    letter-spacing: -0.0112rem;
+    font-size: 18px;
+    letter-spacing: -0.1792px;
 }
 .ios-button:hover{
     background: #66E2DC;
@@ -281,12 +281,12 @@ section{
     transition-duration: 0.3s;
 }
 .android-button{
-    margin-top: 1rem;
+    margin-top: 16px;
     background: #FCFAF9;
     color: #191826;
     font-weight: 700;
-    font-size: 1.125rem;
-    letter-spacing: -0.0112rem;
+    font-size: 18px;
+    letter-spacing: -0.1792px;
 }
 .android-button:hover{
     background: #FFB964;
@@ -296,38 +296,38 @@ section{
 
 /* フッター */
 footer{
-    width: 43.5rem;
-    height: 8.9375rem;
-    margin-top: 11.4375rem;
-    margin-bottom: 5.3125rem;
+    width: 696px;
+    height: 143px;
+    margin-top: 183px;
+    margin-bottom: 85px;
     display: flex;
     flex-direction: row;
 }
 .info-box{
-    width: 22.875rem;
+    width: 366px;
     display: flex;
     flex-direction: column;
 }
 .footer-icon{
-    width: 9.125rem;
-    height: 2rem;
+    width: 146px;
+    height: 32px;
 }
 footer address{
-    margin-top: 2rem;
+    margin-top: 32px;
     margin-left: 0;
-    width: 22.875rem;
+    width: 366px;
     color: #191826;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 16px;
     font-style: normal;
-    line-height: 1.625rem;
+    line-height: 26px;
 }
 .media-box{
-    margin-top: 5.875rem;
-    margin-left: 14.375rem;
+    margin-top: 94px;
+    margin-left: 230px;
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
+    gap: 20px;
 }
 .sns:hover{
     filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%);
@@ -336,7 +336,7 @@ footer address{
 
 /* モバイル版
 ------------------------------------------------------------- */
-@media (max-width: 47.9375rem){
+@media (max-width: 767px){
     /* ボディ */
     body{
         display: flex;
@@ -344,107 +344,107 @@ footer address{
         align-items: center;
         background-image: url(assets/bg-main-mobile.png);
         background-repeat: no-repeat, no-repeat;
-        background-position: top -14.375rem left 0rem;
+        background-position: top -230px left 0px;
         font-family: 'IBM Plex Sans', sans-serif;
     }
     /* ヘッダー */
     header{
-        width: 20.4375rem;
-        margin-top: 2.5rem;
+        width: 327px;
+        margin-top: 40px;
     }
     /* メインテキスト */
     main{
-        width: 20.4375rem;
-        margin-top: 4rem;
+        width: 327px;
+        margin-top: 64px;
     }
     main h1{
         width: inherit;
         color: #191826;
         font-weight: 700;
-        font-size: 2.5rem;
-        line-height: 3rem;
-        letter-spacing: -0.0284rem;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.4544px;
     }
     main .desc{
         width: inherit;
-        margin: 1.75rem 0 0 0;
+        margin: 28px 0 0 0;
         color: #191826;
         font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.625rem;
+        font-size: 16px;
+        line-height: 26px;
     }
     /* プラン詳細 */
     section{
         position: relative;
-        width: 23.4375rem;
-        height: 37.5rem;
-        margin-top: 10.375rem;
+        width: 375px;
+        height: 600px;
+        margin-top: 166px;
         background: #191826;
         background-image: url(assets/bg-pattern-2.svg);
         background-repeat: no-repeat;
         background-position: top 0 left 50%;
-        border-radius: 0.75rem;
+        border-radius: 12px;
     }
     .app-img{
         position: absolute;
-        left: 5rem;
-        bottom: 16.75rem;
-        width: 13rem;
+        left: 80px;
+        bottom: 268px;
+        width: 208px;
     }
     .plan {
         position: absolute;
         right: 0;
-        top: 23.75rem;
-        width: 23.4375rem;
-        height: 34.125rem;
+        top: 380px;
+        width: 375px;
+        height: 546px;
         display: flex;
         flex-direction: column;
         align-items: center;
         background: #FA7453;
-        border-radius: 0.75rem;
+        border-radius: 12px;
     }
     .plan h2{
-        width: 18.875rem;
-        margin:3rem 0 0 0;
+        width: 302px;
+        margin:48px 0 0 0;
         color: #FCFAF9;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 32px;
     }
     .plan .desc{
-        width: 18.875rem;
-        margin: 0.75rem 0 0 0;
+        width: 302px;
+        margin: 12px 0 0 0;
         color: #FCFAF9;
         font-weight: 400;
-        font-size: 1.125rem;
-        line-height: 1.75rem;
+        font-size: 18px;
+        line-height: 28px;
     }
     .plan .price{
-        width: 18.875rem;
-        margin: 2.25rem 0 0 0;
+        width: 302px;
+        margin: 36px 0 0 0;
         display: flex;
         flex-direction: row;
         align-items: center;
         color: #FCFAF9;
         font-weight: 700;
-        font-size: 4.0625rem;
+        font-size: 65px;
     }
     .price span{
         font-weight: 400;
-        font-size: 1.25rem;
+        font-size: 20px;
     }
     .plan button{
-        width: 18.5rem;
-        height: 3.8125rem;
-        border-radius: 0.75rem;
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
         border: none;
     }
     .ios-button{
-        margin-top: 2rem;
+        margin-top: 32px;
         background: #191826;
         color: #FCFAF9;
         font-weight: 700;
-        font-size: 1.125rem;
-        letter-spacing: -0.0112rem;
+        font-size: 18px;
+        letter-spacing: -0.1792px;
     }
     .ios-button:hover{
         background: #66E2DC;
@@ -452,12 +452,12 @@ footer address{
         transition-duration: 0.3s;
     }
     .android-button{
-        margin-top: 1rem;
+        margin-top: 16px;
         background: #FCFAF9;
         color: #191826;
         font-weight: 700;
-        font-size: 1.125rem;
-        letter-spacing: -0.0112rem;
+        font-size: 18px;
+        letter-spacing: -0.1792px;
     }
     .android-button:hover{
         background: #FFB964;
@@ -467,10 +467,10 @@ footer address{
     
     /* フッター */
     footer{
-        width: 20.4375rem;
-        height: 15.8125rem;
-        margin-top: 24.375rem;
-        margin-bottom: 5.3125rem;
+        width: 327px;
+        height: 253px;
+        margin-top: 390px;
+        margin-bottom: 85px;
         display: flex;
         flex-direction: column;
     }
@@ -480,25 +480,25 @@ footer address{
         flex-direction: column;
     }
     .footer-icon{
-        width: 9.125rem;
-        height: 2rem;
+        width: 146px;
+        height: 32px;
     }
     footer address{
-        margin-top: 2rem;
+        margin-top: 32px;
         margin-left: 0;
         width: inherit;
         color: #191826;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 16px;
         font-style: normal;
-        line-height: 1.625rem;
+        line-height: 26px;
     }
     .media-box{
-        margin-top: 4rem;
-        margin-left: 0rem;
+        margin-top: 64px;
+        margin-left: 0px;
         display: flex;
         flex-direction: row;
-        gap: 1.25rem;
+        gap: 20px;
     }
     .sns:hover{
         filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%);
