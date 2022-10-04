@@ -5,21 +5,21 @@ body{
     align-items: center;
     background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-desktop.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: top -40px right 0, center;
+    background-position: top -2.5rem right 0, center;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 /* ヘッダー */
 header{
-    width: 1110px;
-    margin-top: 62px;
+    width: 69.375rem;
+    margin-top: 3.875rem;
 }
 /* メインテキスト */
 main{
-    width: 1110px;
-    margin-top: 127px;
+    width: 69.375rem;
+    margin-top: 7.9375rem;
 }
 main h1{
-    width: 1015px;
+    width: 63.4375rem;
     color: #191826;
     font-weight: 700;
     font-size: 5.5rem;
@@ -27,8 +27,8 @@ main h1{
     letter-spacing: -0.0625rem;
 }
 main .desc{
-    width: 825px;
-    margin: 40px 0 0 0;
+    width: 51.5625rem;
+    margin: 2.5rem 0 0 0;
     color: #191826;
     font-weight: 400;
     font-size: 1.25rem;
@@ -37,51 +37,51 @@ main .desc{
 /* プラン詳細 */
 section{
     position: relative;
-    width: 1110px;
-    height: 600px;
-    margin-top: 321px;
+    width: 69.375rem;
+    height: 37.5rem;
+    margin-top: 20.0625rem;
     background: #191826;
     background-image: url(assets/bg-pattern-2.svg);
     background-repeat: no-repeat;
-    background-position: top 0 left 336px;
-    border-radius: 12px;
+    background-position: top 0 left 21rem;
+    border-radius: 0.75rem;
 }
 .app-img{
     position: absolute;
-    left: 102px;
-    bottom: 171px;
-    width: 312px;
+    left: 6.375rem;
+    bottom: 10.6875rem;
+    width: 19.5rem;
 }
 .plan {
     position: absolute;
-    right: 95px;
-    top: 90px;
-    width: 446px;
-    height: 625px;
+    right: 5.9375rem;
+    top: 5.625rem;
+    width: 27.875rem;
+    height: 39.0625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #FA7453;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 }
 .plan h2{
-    width: 333px;
-    margin:58px 0 0 0;
+    width: 20.8125rem;
+    margin:3.625rem 0 0 0;
     color: #FCFAF9;
     font-weight: 700;
     font-size: 2.5rem;
 }
 .plan .desc{
-    width: 333px;
-    margin: 22px 0 0 0;
+    width: 20.8125rem;
+    margin: 1.375rem 0 0 0;
     color: #FCFAF9;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 2.125rem;
 }
 .plan .price{
-    width: 333px;
-    margin: 39px 0 0 0;
+    width: 20.8125rem;
+    margin: 2.4375rem 0 0 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -94,13 +94,13 @@ section{
     font-size: 1.25rem;
 }
 .plan button{
-    width: 333px;
-    height: 61px;
-    border-radius: 12px;
+    width: 20.8125rem;
+    height: 3.8125rem;
+    border-radius: 0.75rem;
     border: none;
 }
 .ios-button{
-    margin-top: 32px;
+    margin-top: 2rem;
     background: #191826;
     color: #FCFAF9;
     font-weight: 700;
@@ -113,7 +113,7 @@ section{
     transition-duration: 0.3s;
 }
 .android-button{
-    margin-top: 16px;
+    margin-top: 1rem;
     background: #FCFAF9;
     color: #191826;
     font-weight: 700;
@@ -128,10 +128,10 @@ section{
 
 /* フッター */
 footer{
-    width: 1110px;
-    height: 79px;
-    margin-top: 202px;
-    margin-bottom: 91px;
+    width: 69.375rem;
+    height: 4.9375rem;
+    margin-top: 12.625rem;
+    margin-bottom: 5.6875rem;
     display: flex;
     flex-direction: row;
 }
@@ -140,12 +140,12 @@ footer{
     flex-direction: row;
 }
 .footer-icon{
-    width: 146px;
-    height: 32px;
+    width: 9.125rem;
+    height: 2rem;
 }
 footer address{
-    width: 366px;
-    margin-left: 137.6px;
+    width: 22.875rem;
+    margin-left: 8.6rem;
     color: #191826;
     font-weight: 400;
     font-size: 1rem;
@@ -153,11 +153,11 @@ footer address{
     line-height: 1.625rem;
 }
 .media-box{
-    margin-top: 29px;
-    margin-left: 359px;
+    margin-top: 1.8125rem;
+    margin-left: 22.4375rem;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .sns:hover{
     filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%); 
@@ -165,7 +165,7 @@ footer address{
 
 /* タブレット版
 ------------------------------------------------------------- */
-@media (min-width: 768px) and (max-width:1214px){
+@media (min-width: 48rem) and (max-width:75.875rem){
 /* ボディ */
 body{
     display: flex;
@@ -173,30 +173,30 @@ body{
     align-items: center;
     background-image: url(assets/bg-pattern-1.svg), url(assets/bg-main-tablet.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: top -40px right -35.7px, top -230px left -400px;
+    background-position: top -2.5rem right -2.2313rem, top -14.375rem left -25rem;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 /* ヘッダー */
 header{
-    width: 696px;
-    margin-top: 62px;
+    width: 43.5rem;
+    margin-top: 3.875rem;
 }
 /* メインテキスト */
 main{
-    width: 696px;
-    margin-top: 95px;
+    width: 43.5rem;
+    margin-top: 5.9375rem;
 }
 main h1{
-    width: 520px;
+    width: 32.5rem;
     color: #191826;
     font-weight: 700;
     font-size: 4rem;
     line-height: 4rem;
-    letter-spacing: -0.727273px;
+    letter-spacing: -0.0455rem;
 }
 main .desc{
-    width: 514px;
-    margin: 28px 0 0 0;
+    width: 32.125rem;
+    margin: 1.75rem 0 0 0;
     color: #191826;
     font-weight: 400;
     font-size: 1.125rem;
@@ -205,51 +205,51 @@ main .desc{
 /* プラン詳細 */
 section{
     position: relative;
-    width: 696px;
-    height: 600px;
-    margin-top: 249px;
+    width: 43.5rem;
+    height: 37.5rem;
+    margin-top: 15.5625rem;
     background: #191826;
     background-image: url(assets/bg-pattern-2.svg);
     background-repeat: no-repeat;
-    background-position: top -32px left 229px;
-    border-radius: 12px;
+    background-position: top -2rem left 14.3125rem;
+    border-radius: 0.75rem;
 }
 .app-img{
     position: absolute;
-    left: 64px;
-    bottom: 182px;
-    width: 270.2px;
+    left: 4rem;
+    bottom: 11.375rem;
+    width: 16.8875rem;
 }
 .plan {
     position: absolute;
-    right: 58px;
-    top: 150px;
-    width: 399px;
-    height: 546px;
+    right: 3.625rem;
+    top: 9.375rem;
+    width: 24.9375rem;
+    height: 34.125rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #FA7453;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 }
 .plan h2{
-    width: 302px;
-    margin:48px 0 0 0;
+    width: 18.875rem;
+    margin:3rem 0 0 0;
     color: #FCFAF9;
     font-weight: 700;
     font-size: 2rem;
 }
 .plan .desc{
-    width: 302px;
-    margin: 12px 0 0 0;
+    width: 18.875rem;
+    margin: 0.75rem 0 0 0;
     color: #FCFAF9;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
 .plan .price{
-    width: 302px;
-    margin: 36px 0 0 0;
+    width: 18.875rem;
+    margin: 2.25rem 0 0 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -262,13 +262,13 @@ section{
     font-size: 1.25rem;
 }
 .plan button{
-    width: 296px;
-    height: 61px;
-    border-radius: 12px;
+    width: 18.5rem;
+    height: 3.8125rem;
+    border-radius: 0.75rem;
     border: none;
 }
 .ios-button{
-    margin-top: 32px;
+    margin-top: 2rem;
     background: #191826;
     color: #FCFAF9;
     font-weight: 700;
@@ -281,7 +281,7 @@ section{
     transition-duration: 0.3s;
 }
 .android-button{
-    margin-top: 16px;
+    margin-top: 1rem;
     background: #FCFAF9;
     color: #191826;
     font-weight: 700;
@@ -296,26 +296,26 @@ section{
 
 /* フッター */
 footer{
-    width: 696px;
-    height: 143px;
-    margin-top: 183px;
-    margin-bottom: 85px;
+    width: 43.5rem;
+    height: 8.9375rem;
+    margin-top: 11.4375rem;
+    margin-bottom: 5.3125rem;
     display: flex;
     flex-direction: row;
 }
 .info-box{
-    width: 366px;
+    width: 22.875rem;
     display: flex;
     flex-direction: column;
 }
 .footer-icon{
-    width: 146px;
-    height: 32px;
+    width: 9.125rem;
+    height: 2rem;
 }
 footer address{
-    margin-top: 32px;
+    margin-top: 2rem;
     margin-left: 0;
-    width: 366px;
+    width: 22.875rem;
     color: #191826;
     font-weight: 400;
     font-size: 1rem;
@@ -323,11 +323,11 @@ footer address{
     line-height: 1.625rem;
 }
 .media-box{
-    margin-top: 94px;
-    margin-left: 230px;
+    margin-top: 5.875rem;
+    margin-left: 14.375rem;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .sns:hover{
     filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%);
@@ -336,7 +336,7 @@ footer address{
 
 /* モバイル版
 ------------------------------------------------------------- */
-@media (max-width: 767px){
+@media (max-width: 47.9375rem){
     /* ボディ */
     body{
         display: flex;
@@ -344,18 +344,18 @@ footer address{
         align-items: center;
         background-image: url(assets/bg-main-mobile.png);
         background-repeat: no-repeat, no-repeat;
-        background-position: top -230px left 0px;
+        background-position: top -14.375rem left 0rem;
         font-family: 'IBM Plex Sans', sans-serif;
     }
     /* ヘッダー */
     header{
-        width: 327px;
-        margin-top: 40px;
+        width: 20.4375rem;
+        margin-top: 2.5rem;
     }
     /* メインテキスト */
     main{
-        width: 327px;
-        margin-top: 64px;
+        width: 20.4375rem;
+        margin-top: 4rem;
     }
     main h1{
         width: inherit;
@@ -367,7 +367,7 @@ footer address{
     }
     main .desc{
         width: inherit;
-        margin: 28px 0 0 0;
+        margin: 1.75rem 0 0 0;
         color: #191826;
         font-weight: 400;
         font-size: 1rem;
@@ -376,51 +376,51 @@ footer address{
     /* プラン詳細 */
     section{
         position: relative;
-        width: 375px;
-        height: 600px;
-        margin-top: 166px;
+        width: 23.4375rem;
+        height: 37.5rem;
+        margin-top: 10.375rem;
         background: #191826;
         background-image: url(assets/bg-pattern-2.svg);
         background-repeat: no-repeat;
         background-position: top 0 left 50%;
-        border-radius: 12px;
+        border-radius: 0.75rem;
     }
     .app-img{
         position: absolute;
-        left: 80px;
-        bottom: 268px;
-        width: 208px;
+        left: 5rem;
+        bottom: 16.75rem;
+        width: 13rem;
     }
     .plan {
         position: absolute;
         right: 0;
-        top: 380px;
-        width: 375px;
-        height: 546px;
+        top: 23.75rem;
+        width: 23.4375rem;
+        height: 34.125rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         background: #FA7453;
-        border-radius: 12px;
+        border-radius: 0.75rem;
     }
     .plan h2{
-        width: 302px;
-        margin:48px 0 0 0;
+        width: 18.875rem;
+        margin:3rem 0 0 0;
         color: #FCFAF9;
         font-weight: 700;
         font-size: 2rem;
     }
     .plan .desc{
-        width: 302px;
-        margin: 12px 0 0 0;
+        width: 18.875rem;
+        margin: 0.75rem 0 0 0;
         color: #FCFAF9;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
     }
     .plan .price{
-        width: 302px;
-        margin: 36px 0 0 0;
+        width: 18.875rem;
+        margin: 2.25rem 0 0 0;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -433,13 +433,13 @@ footer address{
         font-size: 1.25rem;
     }
     .plan button{
-        width: 296px;
-        height: 61px;
-        border-radius: 12px;
+        width: 18.5rem;
+        height: 3.8125rem;
+        border-radius: 0.75rem;
         border: none;
     }
     .ios-button{
-        margin-top: 32px;
+        margin-top: 2rem;
         background: #191826;
         color: #FCFAF9;
         font-weight: 700;
@@ -452,7 +452,7 @@ footer address{
         transition-duration: 0.3s;
     }
     .android-button{
-        margin-top: 16px;
+        margin-top: 1rem;
         background: #FCFAF9;
         color: #191826;
         font-weight: 700;
@@ -467,10 +467,10 @@ footer address{
     
     /* フッター */
     footer{
-        width: 327px;
-        height: 253px;
-        margin-top: 390px;
-        margin-bottom: 85px;
+        width: 20.4375rem;
+        height: 15.8125rem;
+        margin-top: 24.375rem;
+        margin-bottom: 5.3125rem;
         display: flex;
         flex-direction: column;
     }
@@ -480,11 +480,11 @@ footer address{
         flex-direction: column;
     }
     .footer-icon{
-        width: 146px;
-        height: 32px;
+        width: 9.125rem;
+        height: 2rem;
     }
     footer address{
-        margin-top: 32px;
+        margin-top: 2rem;
         margin-left: 0;
         width: inherit;
         color: #191826;
@@ -494,11 +494,11 @@ footer address{
         line-height: 1.625rem;
     }
     .media-box{
-        margin-top: 64px;
-        margin-left: 0px;
+        margin-top: 4rem;
+        margin-left: 0rem;
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 1.25rem;
     }
     .sns:hover{
         filter: invert(57%) sepia(46%) saturate(1335%) hue-rotate(325deg) brightness(99%) contrast(98%);
